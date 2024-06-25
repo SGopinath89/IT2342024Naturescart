@@ -6,9 +6,9 @@ import Rating from './Rating';
 function Product(props) {
     const {product} = props;
     return(
-        <Card>
+        <Card className="product-card">
             <Link to={`/product/${product.slug}`}>
-                <img src={product.image} className="card-img-top" alt={product.name} />
+                <img src={product.image} className="card-img-top product-image" alt={product.name} />
             </Link>
             <Card.Body>
                 <Link to={`/product/${product.slug}`}>

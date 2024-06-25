@@ -32,14 +32,7 @@ const data = {
             price: 'Rs.900.00',
             description: 'Living Planet Organic Dairy Milk.',
         }, 
-        /* {
-            name: 'Organic Brinjal – 300g',
-            slug: 'brinjal',
-            category: 'Vegitables',
-            image: './images/v5.jpg',
-            price: 'Rs.465.00',
-            description: '',
-        },  */
+        
     ]
 };
 
