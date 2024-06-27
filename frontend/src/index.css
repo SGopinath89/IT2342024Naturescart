@@ -20,7 +20,7 @@ main{
   flex: 1;
 }
 .btn-primary {
-  background-color: #d5fa4c;
+  background-color: #c28d5f;
   color: #000000;
 }
 .products {
@@ -29,7 +29,7 @@ main{
   justify-content: center;
 }
 .rating span {
-  color: #d5fa4c;
+  color: #c6bd03;
 }
 .product{
   border: 1px #404040 solid;
@@ -83,12 +83,12 @@ main{
 
 .product-card .card-text {
   font-size: 1em;
-  color: #333;
+  color: #333333;
   margin-bottom: 10px;
 }
 
 .product-card button {
-  background-color: #4CAF50; /* Green */
+  background-color: hsl(45, 2%, 48%); /* Green */
   border: none;
   color: white;
   padding: 10px 20px;
@@ -102,5 +102,20 @@ main{
 }
 
 .product-card button:hover {
-  background-color: #45a049;
+  background-color: #036108;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.custom-green-button {
+  background-color: #b9f1b9; /* or any shade of green you prefer */
+  border-color: #06f13819;     /* matching border color */
+  color: rgb(0, 0, 0);              /* text color */
+}
+
+.custom-green-button:hover {
+  background-color: #377d46; /* darken color on hover */
+  border-color: #1e7e34;     /* matching border color on hover */
 }

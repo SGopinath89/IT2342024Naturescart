@@ -6,6 +6,9 @@ const data = {
             category: 'Vegitables',
             image: './images/v4.png',
             price: 'Rs.225.00',
+            rating: 4.5,
+            numReviews: 10,
+            countInStock: 5,
             description: 'Eggplants are a nutrient-dense food, meaning they contain a good amount of vitamins, minerals and fiber in few calories.',
         },
         {
@@ -14,6 +17,9 @@ const data = {
             category: 'Grains',
             image: './images/g2.jpg',
             price: 'Rs.800.00',
+            rating: 5.0,
+            numReviews: 10,
+            countInStock: 8,
             description: 'Keepwell Organic Chickpea Flour is also known as Besan Flour. Naturally dense flour with good binding tendencies.',
         },
         {
@@ -22,6 +28,9 @@ const data = {
             category: 'Fruits',
             image: './images/f1.jpg',
             price: 'Rs.850.00',
+            rating: 4.0,
+            numReviews: 20,
+            countInStock: 2,
             description: 'Pineapple and its compounds have been linked to many health benefits, including aiding digestion, boosting immunity and speeding up recovery from surgery, among others.',
         },
         {
@@ -30,6 +39,9 @@ const data = {
             category: 'Diary',
             image: './images/d1.jpg',
             price: 'Rs.900.00',
+            rating: 5.0,
+            numReviews: 30,
+            countInStock: 15,
             description: 'Living Planet Organic Dairy Milk.',
         }, 
         
