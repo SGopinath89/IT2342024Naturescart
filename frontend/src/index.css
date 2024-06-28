@@ -119,3 +119,6 @@ main{
   background-color: #377d46; /* darken color on hover */
   border-color: #1e7e34;     /* matching border color on hover */
 }
+.img-thumbnail {
+  height: 100px;
+}
