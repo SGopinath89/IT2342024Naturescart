@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+    users: [
+        {
+            name: 'Admin',
+            email: 'admin123@gmail.com',
+            password: bcrypt.hashSync('admin123'),
+            isAdmin: true
+        },
+        {
+            name: 'user',
+            email: 'user123@gmail.com',
+            password: bcrypt.hashSync('user123'),
+            isAdmin: false,
+        }
+    ],
     products : [
         {
-            _id: '1',
+            //_id: '1',
             name: 'Organic Cucumber – 300g',
             slug: 'cucumber',
             category: 'Vegitables',
@@ -13,7 +29,7 @@ const data = {
             description: 'Eggplants are a nutrient-dense food, meaning they contain a good amount of vitamins, minerals and fiber in few calories.',
         },
         {
-            _id: '2',
+           // _id: '2',
             name: 'Keepwell Organic Chickpea Flour – 400g',
             slug: 'Chickpea-Flour',
             category: 'Grains',
@@ -25,7 +41,7 @@ const data = {
             description: 'Keepwell Organic Chickpea Flour is also known as Besan Flour. Naturally dense flour with good binding tendencies.',
         },
         {
-            _id: '3',
+           // _id: '3',
             name: 'Organic Pineapple – 500g',
             slug: 'pineapple',
             category: 'Fruits',
@@ -37,7 +53,7 @@ const data = {
             description: 'Pineapple and its compounds have been linked to many health benefits, including aiding digestion, boosting immunity and speeding up recovery from surgery, among others.',
         },
         {
-            _id: '4',
+            //_id: '4',
             name: 'Organic Dairy Milk – Low Fat – 1L',
             slug: 'milk',
             category: 'Diary',
