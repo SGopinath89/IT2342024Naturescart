@@ -19,7 +19,7 @@ export default function PaymentMethodScreen() {
 
     useEffect(() => {
         if(!shippingAddress.address){
-            navigate('/shipping');
+            navigate('/delivery');
         }
     }, [shippingAddress, navigate]);
 
@@ -67,3 +67,5 @@ export default function PaymentMethodScreen() {
 
   )
 }
+
+
