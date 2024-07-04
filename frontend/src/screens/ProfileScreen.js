@@ -60,7 +60,6 @@ export default function ProfileScreen() {
             toast.error(getError(err));
         }
     };
-
     return (
         <div className='container small-container'>
             <Helmet>
