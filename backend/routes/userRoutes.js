@@ -70,5 +70,30 @@ userRouter.put(
 
     })
 )
-
+userRouter.put(
+    '/onlinepayment',
+    isAuth,
+    expressAsyncHandler(async (req, res) => {
+      try {
+        const { cardNumber, expiry, cvc } = req.body;
+  
+        // Validate input
+        if (!cardNumber || !expiry || !cvc) {
+          return res.status(400).send({ message: 'Missing payment information' });
+        }
+  
+        // Simulate payment processing
+        const paymentSuccess = true; // Replace with actual payment logic
+  
+        if (paymentSuccess) {
+          res.send({ message: 'Payment Successful' });
+        } else {
+          res.status(500).send({ message: 'Payment Failed' });
+        }
+      } catch (error) {
+        console.error(error);
+        res.status(500).send({ message: 'Internal Server Error' });
+      }
+    })
+  );
 export default userRouter;
