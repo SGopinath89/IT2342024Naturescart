@@ -64,7 +64,7 @@ const data = {
             countInStock: 15,
             description: 'Living Planet Organic Dairy Milk.',
         }, 
-        {
+        /* {
             name: 'Organic Black-Eyed White Beans – 500g',
             slug: 'beans',
             category: 'Grains',
@@ -97,7 +97,7 @@ const data = {
             countInStock: 20,
             description: '',
         }, 
-        
+         */
     ]
 };
 
